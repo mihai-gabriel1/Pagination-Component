@@ -1,2 +1,3 @@
 # Pagination-Component
-Building a pagination component.
+
+Building a pagination component from scratch.
