@@ -14,54 +14,61 @@ body {
   margin: 100px auto;
   width: 700px;
   padding: 50px;
-}
-
-.container {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 35px;
 }
 
-.btn--left,
-.btn--right {
-  stroke: #087f5b;
-  border: 1px solid #087f5b;
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.btn {
+  border: 1px solid grey;
+  width: 40px;
+  height: 40px;
+  background-color: white;
   border-radius: 50%;
+}
+
+.btn:hover {
+  background-color: #087f5b;
+  /* color: white; */
+  stroke: red;
+}
+
+.btn-icon {
+  height: 24px;
+  width: 24px;
+  stroke: #087f5b;
+}
+
+.btn-icon:hover {
+  color: red;
+}
+
+a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
-  width: 44px;
-  height: 44px;
-  /* padding: 5px; */
+  color: black;
+  text-decoration: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+a:hover {
+  background-color: #087f5b;
+  color: white;
 }
 
 .three {
   background-color: #087f5b;
   color: white;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-button {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: none;
-  background-color: white;
-  font-size: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-button:hover {
-  cursor: pointer;
-  background-color: #087f5b;
-  /* padding: 25px; */
-  color: white;
-  padding: 20px;
 }
